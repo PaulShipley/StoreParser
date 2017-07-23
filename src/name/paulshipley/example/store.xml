@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<store xmlns="http://paulshipley.id.au/store" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://paulshipley.id.au/store store.xsd">
+	<item barcode="12345" colour="red">
+		First item
+	</item>
+	<item barcode="67890" colour="blue">
+		Second item
+	</item>
+	<item barcode="09876" colour="green">
+		Third item
+	</item>
+</store>

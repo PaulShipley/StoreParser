@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Paul Shipley, Melbourne, Australia)
+Class-Path: SAHexample.jar
+Main-Class: name.paulshipley.example.StoreParser
+
+Name: name/paulshipley/StateAwareHandler
+Implementation-Vendor: Paul Shipley, Melbourne, Australia
+Implementation-URL: http://paulshipley.id.au
+Implementation-Version: 1.0
+Implementation-Title: name.paulshipley.example
+Comment: StoreParser is an example of using the StateAwareHandler class.
+

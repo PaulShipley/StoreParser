@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://paulshipley.id.au/store"
+	xmlns:tns="http://paulshipley.id.au/store" elementFormDefault="qualified">
+
+    <element name="store">
+    	<complexType>
+    		<sequence minOccurs="0" maxOccurs="unbounded">
+    			<element ref="tns:item"></element>
+    		</sequence>
+    	</complexType>
+    </element>
+    
+
+
+
+
+
+
+    <element name="item">
+        <complexType mixed="true">
+        	<simpleContent>
+        		<extension base="string">
+        			<attribute name="colour" type="string"
+        				use="required">
+        			</attribute>
+        			<attribute name="barcode" type="string"
+        				use="required">
+        			</attribute>
+        		</extension>
+        	</simpleContent>
+        </complexType>
+    </element>
+    
+
+
+
+
+
+</schema>
